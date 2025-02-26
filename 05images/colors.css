@@ -1,0 +1,196 @@
+.lekton-regular {
+  font-family: "Lekton", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lekton-bold {
+  font-family: "Lekton", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lekton-regular-italic {
+  font-family: "Lekton", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+  
+
+body {
+    font-family: "Oxygen", serif;
+    font-weight: 300;
+    font-style: normal;
+    background-color: #f2f1f0;
+}
+
+/* Header Section Styling */
+
+header {
+background-color: #80bfb4;
+padding: 1rem 2vw; 
+color: #460142;
+}
+
+header span {
+    margin: 0;
+    color: #460142;
+    font-size: 1.6rem;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+
+
+/* Nav Section Styling */
+
+nav{
+  background-color: #d9a3d0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem ;
+    text-decoration: none;
+    color: #460142;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+
+nav li a:hover {
+    color: white;
+
+}
+
+/* main stuff here */
+
+
+main {
+    padding: 1rem 10px
+}
+main h1 {
+    color: #000084;
+}
+main h2 {
+    color: #023573;
+    margin-bottom: .2rem;
+}
+
+main p {
+    margin: 0;
+    color: #333;
+}
+
+main ol {
+    padding: .5rem 30px;
+    background-color: #f2f1f0;
+}
+
+main dl dt {
+    color: #870c81;
+    font-weight: 700;
+    margin-top: 1rem;
+
+}
+
+main dl dd {
+color: #000084;
+font-size: .9rem;
+margin-left: 20px;
+
+}
+
+main ul {
+list-style-type: none;
+}
+
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+
+main strong{
+    font-weight: 700;
+    color: black;
+}
+
+main em {
+    font-weight: 300;
+}
+
+main a 
+{
+    color: #023573; 
+}
+
+main a:hover {
+    color: #f2b366;
+}
+
+main address{
+    font-style: normal;
+    background-color: #f2b705;
+    padding: .5rem;
+    border-radius: 10px;
+    border: 1px solid #024873;
+    width: 200px;
+    text-align: center;
+}
+
+/* figures here */
+
+figure.home {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+    }
+    
+    figure.home img {
+    width: 100%;
+    height: auto;
+    
+    }
+
+    div.gallery{
+        display: flex;
+        flex-wrap: wrap;
+        
+        }
+        div.gallery figure {
+        
+            margin: .5rem 2% 0 0;
+        
+        }
+        
+        div.gallery figure {
+            font-size: .8rem;
+            color: #d9a3d0;
+        text-align: center;
+        
+        }
+
+
+
+
+/* footer here */
+
+footer
+{
+background-color:#80bfb4;
+text-align: center;
+padding: 1rem 0;
+font-size: .8rem;
+color: #333;
+letter-spacing: 3px;
+
+}
+
+footer p {
+    margin: 0;
+}
