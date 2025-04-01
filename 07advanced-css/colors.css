@@ -185,7 +185,7 @@ main {
     padding: 1rem 10px
 }
 main h1 {
-    color: #000084;
+    color: rgb(0, 0, 132);
 }
 main h2 {
     color: #023573;
@@ -265,6 +265,9 @@ height:auto;
 padding-bottom: 15px;
 }
 
+.gallery img:hover {
+    box-shadow: 0px 0px 10px rgba(0, 0, 132, .5);
+}
 
 /* figures here */
 
@@ -312,4 +315,9 @@ letter-spacing: 3px;
 
 footer p {
     margin: 0;
+}
+
+header, nav, main, footer {
+max-width: 1000 px;
+margin: 0 auto;
 }
